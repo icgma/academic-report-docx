@@ -1,0 +1,6 @@
+interface:
+  display_name: "学术汇报与三线表 Word 生成 (Academic Report DOCX)"
+  short_description: "客观平实的中文学术工作汇报写作与宋体 + Times New Roman 纯黑三段式三线表 Word 自动排版"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.png"
+  default_prompt: "请按客观平实的中文学术工作汇报风格（零第一/第二人称、无生僻古词与AI套话）整理文稿，并导出符合学术规范（宋体 + Times New Roman、纯黑色、标准三段式三线表）的 Word (.docx) 文档。"

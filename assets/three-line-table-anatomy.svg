@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="1200" height="480">
+  <rect width="1200" height="480" rx="14" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="600" y="36" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="bold" fill="#0f172a">OpenXML 学术 Word 版式与 GB/T 7713.1 三段式三线表解剖图</text>
+
+  <!-- Center A4 Sheet -->
+  <rect x="300" y="56" width="560" height="398" rx="4" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+  <!-- Margin Guide Dashed Box -->
+  <rect x="336" y="82" width="488" height="346" fill="none" stroke="#cbd5e1" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Heading & Body inside sheet -->
+  <text x="346" y="108" font-family="SimSun,serif" font-size="14" font-weight="bold" fill="#000000">二、基准回归模型设定与稳健性检验</text>
+  <text x="370" y="132" font-family="SimSun,'Times New Roman',serif" font-size="11.5" fill="#000000">实证模型在双向固定效应框架下考察数字化转型对响应效率的影响，</text>
+  <text x="346" y="152" font-family="SimSun,'Times New Roman',serif" font-size="11.5" fill="#000000">样本覆盖 285 个城市共 3,378 个观测值，回归结果汇总见表 2。</text>
+
+  <!-- Segment 1: Table Caption -->
+  <text x="580" y="186" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="11.5" font-weight="bold" fill="#000000">表 2 政务数字化转型对行政响应时长的回归结果</text>
+
+  <!-- Segment 2: 3-Line Table -->
+  <!-- Top Rule 1.5pt -->
+  <line x1="346" y1="200" x2="814" y2="200" stroke="#000000" stroke-width="3"/>
+  <text x="354" y="220" font-family="SimSun,serif" font-size="10.5" font-weight="bold" fill="#000000">解释变量与统计项</text>
+  <text x="565" y="220" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="10.5" font-weight="bold" fill="#000000">(1) 基准模型</text>
+  <text x="675" y="220" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="10.5" font-weight="bold" fill="#000000">(2) 逆概率加权</text>
+  <text x="775" y="220" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="10.5" font-weight="bold" fill="#000000">(3) 安慰剂</text>
+  <!-- Header Bottom Rule 0.75pt -->
+  <line x1="346" y1="230" x2="814" y2="230" stroke="#000000" stroke-width="1.3"/>
+
+  <!-- Panel Subhead -->
+  <text x="354" y="250" font-family="SimSun,'Times New Roman',serif" font-size="10" font-weight="bold" fill="#000000">A. 核心解释变量</text>
+  <!-- Data Rows (No inner horizontal or vertical lines!) -->
+  <text x="354" y="272" font-family="SimSun,'Times New Roman',serif" font-size="10" fill="#000000">政务数字化指数 (digital_gov)</text>
+  <text x="565" y="272" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">-1.842*** (0.291)</text>
+  <text x="675" y="272" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">-1.539*** (0.278)</text>
+  <text x="775" y="272" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">-0.084 (0.245)</text>
+
+  <text x="354" y="294" font-family="SimSun,'Times New Roman',serif" font-size="10" fill="#000000">上年办结时长 (lag_resp_days)</text>
+  <text x="565" y="294" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">—</text>
+  <text x="675" y="294" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">0.308*** (0.044)</text>
+  <text x="775" y="294" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">0.319*** (0.042)</text>
+
+  <text x="354" y="316" font-family="SimSun,'Times New Roman',serif" font-size="10" fill="#000000">观测数 N / 决定系数 R²</text>
+  <text x="565" y="316" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">3,257 (0.641)</text>
+  <text x="675" y="316" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">2,972 (0.720)</text>
+  <text x="775" y="316" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">2,972 (0.701)</text>
+
+  <!-- Bottom Rule 1.5pt -->
+  <line x1="346" y1="330" x2="814" y2="330" stroke="#000000" stroke-width="3"/>
+
+  <!-- Segment 3: Table Note -->
+  <text x="346" y="352" font-family="SimSun,'Times New Roman',serif" font-size="9.5" fill="#000000">注：括号内为地级市聚类稳健标准误；控制城市与年份双向固定效应。*** p &lt; 0.001，** p &lt; 0.01。</text>
+
+  <!-- Footer Page Number -->
+  <text x="580" y="440" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10.5" fill="#000000">2</text>
+
+  <!-- Left Callout Annotations -->
+  <g font-family="'Microsoft YaHei',sans-serif" font-size="12">
+    <rect x="28" y="86" width="238" height="54" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="40" y="107" font-weight="bold" fill="#0f172a">双字体映射 + 全域纯黑</text>
+    <text x="40" y="127" fill="#334155">中文宋体 · 西文数字 Times New Roman</text>
+    <line x1="266" y1="113" x2="342" y2="113" stroke="#0f172a" stroke-width="1.2"/>
+
+    <rect x="28" y="160" width="238" height="54" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="40" y="181" font-weight="bold" fill="#0f172a">第一段：表上居中加粗表题</text>
+    <text x="40" y="201" fill="#334155">五号 (10.5pt) · keepNext 防表题分离</text>
+    <line x1="266" y1="186" x2="420" y2="186" stroke="#0f172a" stroke-width="1.2"/>
+
+    <rect x="28" y="242" width="238" height="62" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="40" y="263" font-weight="bold" fill="#0f172a">零竖线 · 零内横线 · 零底纹</text>
+    <text x="40" y="283" fill="#334155">首列左对齐，数值列居中对齐</text>
+    <text x="40" y="298" fill="#334155">支持 A. / B. 子面板加粗分组标题</text>
+    <line x1="266" y1="272" x2="346" y2="272" stroke="#0f172a" stroke-width="1.2"/>
+
+    <rect x="28" y="330" width="238" height="54" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="40" y="351" font-weight="bold" fill="#0f172a">第三段：表下小五号表注</text>
+    <text x="40" y="371" fill="#334155">小五 (9pt) · 两端对齐 · 无首行缩进</text>
+    <line x1="266" y1="352" x2="342" y2="352" stroke="#0f172a" stroke-width="1.2"/>
+  </g>
+
+  <!-- Right Callout Annotations -->
+  <g font-family="'Microsoft YaHei',sans-serif" font-size="12">
+    <rect x="894" y="86" width="278" height="54" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="908" y="107" font-weight="bold" fill="#0f172a">标准段落版式（小四 12pt）</text>
+    <text x="908" y="127" fill="#334155">1.5 倍行距 · 首行缩进 2 字符 · 两端对齐</text>
+    <line x1="824" y1="128" x2="894" y2="113" stroke="#0f172a" stroke-width="1.2"/>
+
+    <rect x="894" y="176" width="278" height="44" rx="8" fill="#0f172a"/>
+    <text x="908" y="203" font-weight="bold" fill="#ffffff">顶线（Top Rule）：1.5 pt (w:sz=12)</text>
+    <line x1="814" y1="200" x2="894" y2="198" stroke="#0f172a" stroke-width="1.5"/>
+
+    <rect x="894" y="232" width="278" height="44" rx="8" fill="#1e293b"/>
+    <text x="908" y="259" font-weight="bold" fill="#ffffff">栏目线（Header Rule）：0.75 pt (w:sz=6)</text>
+    <line x1="814" y1="230" x2="894" y2="252" stroke="#1e293b" stroke-width="1.5"/>
+
+    <rect x="894" y="308" width="278" height="44" rx="8" fill="#0f172a"/>
+    <text x="908" y="335" font-weight="bold" fill="#ffffff">底线（Bottom Rule）：1.5 pt (w:sz=12)</text>
+    <line x1="814" y1="330" x2="894" y2="330" stroke="#0f172a" stroke-width="1.5"/>
+
+    <rect x="894" y="396" width="278" height="50" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.2"/>
+    <text x="908" y="417" font-weight="bold" fill="#0f172a">A4 页边距与自动页码</text>
+    <text x="908" y="436" fill="#334155">上下 2.54cm / 左右 2.80cm · 10pt 页码</text>
+    <line x1="600" y1="440" x2="894" y2="424" stroke="#64748b" stroke-width="1" stroke-dasharray="3,3"/>
+  </g>
+</svg>

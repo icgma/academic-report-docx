@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#eef2f6"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="112%" height="115%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0f172a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="18" fill="url(#bgGrad)" stroke="#cbd5e1" stroke-width="1.5"/>
+
+  <!-- Left Column: Title & Value Proposition -->
+  <rect x="48" y="42" width="178" height="28" rx="14" fill="#0f172a"/>
+  <text x="137" y="61" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">AGENT SKILL · v1.0.0</text>
+
+  <text x="48" y="114" font-family="'Microsoft YaHei','PingFang SC',SimHei,sans-serif" font-size="34" font-weight="bold" fill="#0f172a">academic-report-docx</text>
+  <text x="48" y="152" font-family="'Microsoft YaHei','PingFang SC',SimHei,sans-serif" font-size="20" font-weight="bold" fill="#1e293b">客观平实的中文学术汇报文风 × 标准三段式三线表 Word 自动排版</text>
+
+  <text x="48" y="192" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 行文铁律：零第一/第二人称客观汇报体 · 拒用晦涩古词与AI套话 · 正文去括号英文路障</text>
+  <text x="48" y="220" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 学术版式：中文宋体 + 西文数字符号 Times New Roman · 全域 100% 纯黑 (#000000)</text>
+  <text x="48" y="248" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 规范图表：GB/T 7713.1 三段式三线表 (1.5pt / 0.75pt / 1.5pt) + 原生 OMML 数学公式</text>
+  <text x="48" y="276" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 双重门禁：内置 Prose 文风检查器 + OpenXML 底层标签自动断言核验</text>
+
+  <!-- Agent Compatibility Pills -->
+  <text x="48" y="322" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="12.5" font-weight="bold" fill="#475569">原生适配五大智能体终端（开箱即用）：</text>
+  <g transform="translate(48, 336)">
+    <rect x="0" y="0" width="112" height="32" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <text x="56" y="21" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="bold" fill="#0f172a">Claude Code</text>
+
+    <rect x="124" y="0" width="96" height="32" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <text x="172" y="21" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="bold" fill="#0f172a">Codex</text>
+
+    <rect x="232" y="0" width="108" height="32" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <text x="286" y="21" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="bold" fill="#0f172a">dsh Harness</text>
+
+    <rect x="352" y="0" width="92" height="32" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <text x="398" y="21" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="bold" fill="#0f172a">ZCode</text>
+
+    <rect x="456" y="0" width="114" height="32" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <text x="513" y="21" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="bold" fill="#0f172a">WorkBuddy</text>
+  </g>
+
+  <!-- Right Column: Crisp A4 Academic Word Mockup Preview -->
+  <g filter="url(#cardShadow)" transform="translate(736, 30)">
+    <rect x="0" y="0" width="416" height="360" rx="6" fill="#ffffff" stroke="#94a3b8" stroke-width="1"/>
+    <!-- Simulated A4 Header Title -->
+    <text x="208" y="38" text-anchor="middle" font-family="SimSun,'Songti SC',serif" font-size="15.5" font-weight="bold" fill="#000000">面板数据清洗、缺失检验与基准回归汇报</text>
+    <text x="208" y="58" text-anchor="middle" font-family="SimSun,'Songti SC',serif" font-size="11" fill="#000000">（数据口径、稳健性检验与模型设定审阅稿）</text>
+
+    <!-- Section H1 -->
+    <text x="32" y="84" font-family="SimSun,'Songti SC',serif" font-size="13" font-weight="bold" fill="#000000">一、原始数据异常排查与样本筛选</text>
+    <!-- Body Indented 2 Chars -->
+    <text x="54" y="106" font-family="SimSun,'Times New Roman',serif" font-size="11" fill="#000000">全量底表合并去重后共包含 285 个地级市 3,378 个观测</text>
+    <text x="32" y="124" font-family="SimSun,'Times New Roman',serif" font-size="11" fill="#000000">值，核心指标综合合格率达 99.65%。基准回归方程设定如下：</text>
+
+    <!-- Centered OMML Math -->
+    <text x="208" y="150" text-anchor="middle" font-family="'Times New Roman',serif" font-style="italic" font-size="12.5" fill="#000000">Y_ct = β₁ DigitalGov_ct + ρ Y_c,t-1 + X&apos;_ct γ + μ_c + λ_t + ε_ct</text>
+
+    <!-- Table Caption -->
+    <text x="208" y="180" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="10.5" font-weight="bold" fill="#000000">表 1 政务数字化转型对行政响应时长的回归结果</text>
+
+    <!-- Three-Line Table -->
+    <line x1="32" y1="192" x2="384" y2="192" stroke="#000000" stroke-width="2.4"/>
+    <text x="38" y="208" font-family="SimSun,serif" font-size="9.5" font-weight="bold" fill="#000000">解释变量</text>
+    <text x="195" y="208" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="9.5" font-weight="bold" fill="#000000">(1) 基线 FE</text>
+    <text x="275" y="208" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="9.5" font-weight="bold" fill="#000000">(2) IPW 加权</text>
+    <text x="350" y="208" text-anchor="middle" font-family="SimSun,'Times New Roman',serif" font-size="9.5" font-weight="bold" fill="#000000">(3) 安慰剂</text>
+    <line x1="32" y1="216" x2="384" y2="216" stroke="#000000" stroke-width="1.1"/>
+
+    <text x="38" y="233" font-family="SimSun,'Times New Roman',serif" font-size="9.5" fill="#000000">数字化指数 (digital_gov)</text>
+    <text x="195" y="233" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">-1.842***</text>
+    <text x="275" y="233" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">-1.539***</text>
+    <text x="350" y="233" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">-0.084</text>
+
+    <text x="38" y="251" font-family="SimSun,'Times New Roman',serif" font-size="9.5" fill="#000000">上年滞后项 (lag_resp)</text>
+    <text x="195" y="251" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">—</text>
+    <text x="275" y="251" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">0.308***</text>
+    <text x="350" y="251" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">0.319***</text>
+
+    <text x="38" y="269" font-family="SimSun,'Times New Roman',serif" font-size="9.5" fill="#000000">双向固定效应 / 观测数 N</text>
+    <text x="195" y="269" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">3,257</text>
+    <text x="275" y="269" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">2,972</text>
+    <text x="350" y="269" text-anchor="middle" font-family="'Times New Roman',serif" font-size="9.5" fill="#000000">2,972</text>
+
+    <line x1="32" y1="280" x2="384" y2="280" stroke="#000000" stroke-width="2.4"/>
+
+    <!-- Table Note -->
+    <text x="32" y="298" font-family="SimSun,'Times New Roman',serif" font-size="8.8" fill="#000000">注：括号内为城市聚类稳健标准误。*** p &lt; 0.001，** p &lt; 0.01，* p &lt; 0.05。</text>
+
+    <!-- Page Footer -->
+    <text x="208" y="342" text-anchor="middle" font-family="'Times New Roman',serif" font-size="10" fill="#000000">1</text>
+  </g>
+</svg>

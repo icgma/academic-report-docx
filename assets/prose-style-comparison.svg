@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390">
+  <rect width="1200" height="390" rx="14" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="600" y="38" text-anchor="middle" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="20" font-weight="bold" fill="#0f172a">行文风格精准校准：避开“口语信件腔”与“AI压缩饼干腔”两个极端</text>
+
+  <!-- Column 1: Bad 1st-person colloquial -->
+  <g transform="translate(28, 62)">
+    <rect width="364" height="302" rx="10" fill="#fff1f2" stroke="#fda4af" stroke-width="1.5"/>
+    <rect x="16" y="14" width="210" height="26" rx="6" fill="#be123c"/>
+    <text x="121" y="32" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">❌ 误区一：第一人称口语聊天腔</text>
+
+    <text x="18" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#4c0519">“我把最近做完的数据清洗和回归结果</text>
+    <text x="18" y="88" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#4c0519">都整理在这份文档里了，想请你帮忙把</text>
+    <text x="18" y="110" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#4c0519">把关，看看我们现在的毛坯表修成精装</text>
+    <text x="18" y="132" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#4c0519">修合不合理，你看要不要再加个变量？”</text>
+
+    <line x1="18" y1="156" x2="346" y2="156" stroke="#fda4af" stroke-width="1"/>
+    <text x="18" y="182" font-family="'Microsoft YaHei',sans-serif" font-size="12.5" font-weight="bold" fill="#9f1239">拦截诊断（audit_report_prose.py）：</text>
+    <text x="18" y="206" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#881337">• 出现第一/第二人称“我 / 你 / 我们”</text>
+    <text x="18" y="228" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#881337">• 混入“毛坯 / 精装修”等非学术口语俗喻</text>
+    <text x="18" y="250" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#881337">• 缺乏正式科研工作汇报的客观专业度</text>
+    <text x="18" y="278" font-family="'Segoe UI',monospace" font-size="11.5" font-weight="bold" fill="#be123c">Status: FAIL [人称代词违规 / 词表告警]</text>
+  </g>
+
+  <!-- Column 2: Bad AI-archaic syntactic biscuit -->
+  <g transform="translate(418, 62)">
+    <rect width="364" height="302" rx="10" fill="#fffbeb" stroke="#fcd34d" stroke-width="1.5"/>
+    <rect x="16" y="14" width="236" height="26" rx="6" fill="#b45309"/>
+    <text x="134" y="32" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">❌ 误区二：生僻古词 + AI 压缩饼干</text>
+
+    <text x="18" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#451a03">“本说明系统赋能双轨奏疏语料之跨库</text>
+    <text x="18" y="88" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#451a03">实体链接（Entity Linking）与条件随机</text>
+    <text x="18" y="110" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#451a03">缺失（MAR）校准，构建 104 维定稿宽</text>
+    <text x="18" y="132" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#451a03">表，涵盖藩臬铨选与钱粮奏销诸端……”</text>
+
+    <line x1="18" y1="156" x2="346" y2="156" stroke="#fcd34d" stroke-width="1"/>
+    <text x="18" y="182" font-family="'Microsoft YaHei',sans-serif" font-size="12.5" font-weight="bold" fill="#92400e">拦截诊断（audit_report_prose.py）：</text>
+    <text x="18" y="206" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#78350f">• 拽生僻古词（奏疏 / 藩臬 / 铨选 / 奏销）</text>
+    <text x="18" y="228" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#78350f">• 堆砌AI黑话（跨库实体链接 / 定稿宽表）</text>
+    <text x="18" y="250" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#78350f">• 正文每隔几字塞英文括号，打断阅读流</text>
+    <text x="18" y="278" font-family="'Segoe UI',monospace" font-size="11.5" font-weight="bold" fill="#b45309">Status: FAIL [括号英文路障 / 超长分句]</text>
+  </g>
+
+  <!-- Column 3: Target Standard -->
+  <g transform="translate(808, 62)">
+    <rect width="364" height="302" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    <rect x="16" y="14" width="236" height="26" rx="6" fill="#15803d"/>
+    <text x="134" y="32" text-anchor="middle" font-family="'Microsoft YaHei',sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">✅ 本技能标准：客观平实汇报体</text>
+
+    <text x="18" y="66" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#052e16">“本报告汇总近期完成的四部分工作：一</text>
+    <text x="18" y="88" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#052e16">是原始公文的错误排查与数据清洗；二是</text>
+    <text x="18" y="110" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#052e16">结合三大历史数据库完成的人物履历补全；</text>
+    <text x="18" y="132" font-family="'Microsoft YaHei',sans-serif" font-size="13" fill="#052e16">文末列出七个具体问题，供审阅把关。”</text>
+
+    <line x1="18" y1="156" x2="346" y2="156" stroke="#86efac" stroke-width="1"/>
+    <text x="18" y="182" font-family="'Microsoft YaHei',sans-serif" font-size="12.5" font-weight="bold" fill="#166534">核心特征（100% 保留实证精度）：</text>
+    <text x="18" y="206" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#14532d">• 零第一/第二人称，客观干练汇报口吻</text>
+    <text x="18" y="228" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#14532d">• 用词直白准确，单分句严格 ≤ 38 汉字</text>
+    <text x="18" y="250" font-family="'Microsoft YaHei',sans-serif" font-size="12" fill="#14532d">• 正文纯中文顺畅叙事，英文变量入三线表</text>
+    <text x="18" y="278" font-family="'Segoe UI',monospace" font-size="11.5" font-weight="bold" fill="#15803d">Status: PASS (0 prose issues detected!)</text>
+  </g>
+</svg>
