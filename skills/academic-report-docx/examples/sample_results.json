@@ -1,0 +1,56 @@
+{
+  "metadata": {
+    "project": "municipal_digital_governance_panel",
+    "years": [2012, 2023],
+    "panel_span_years": 12,
+    "cities_total": 285,
+    "sub_provincial_cities": 15
+  },
+  "sample_cleaning": {
+    "raw_observations": 3420,
+    "raw_columns": 18,
+    "final_columns": 56,
+    "dropped_transition_obs": 42,
+    "balanced_panel_obs": 3378,
+    "overall_pass_rate": 0.9965
+  },
+  "table1_completeness": {
+    "digital_gov": {"before": 0.9420, "after": 1.0000},
+    "resp_days": {"before": 0.9185, "after": 0.9976},
+    "fiscal_pc": {"before": 0.8840, "after": 0.9988},
+    "broadband_rate": {"before": 0.7614, "after": 0.9642}
+  },
+  "table2_regressions": {
+    "col1_twfe_baseline": {
+      "digital_gov": {"coef": -1.842, "se": 0.291},
+      "ln_fiscal_pc": {"coef": -0.418, "se": 0.196},
+      "broadband_rate": {"coef": -0.625, "se": 0.218},
+      "N": 3257,
+      "r2": 0.6412
+    },
+    "col2_lagged_dv": {
+      "digital_gov": {"coef": -1.516, "se": 0.264},
+      "lag_resp_days": {"coef": 0.312, "se": 0.041},
+      "ln_fiscal_pc": {"coef": -0.352, "se": 0.174},
+      "broadband_rate": {"coef": -0.514, "se": 0.195},
+      "N": 2972,
+      "r2": 0.7185
+    },
+    "col3_ipw_robust": {
+      "digital_gov": {"coef": -1.539, "se": 0.278},
+      "lag_resp_days": {"coef": 0.308, "se": 0.044},
+      "ln_fiscal_pc": {"coef": -0.367, "se": 0.181},
+      "broadband_rate": {"coef": -0.529, "se": 0.203},
+      "N": 2972,
+      "r2": 0.7204
+    },
+    "col4_placebo_lead2": {
+      "digital_gov": {"coef": -0.084, "se": 0.245},
+      "lag_resp_days": {"coef": 0.319, "se": 0.042},
+      "ln_fiscal_pc": {"coef": -0.349, "se": 0.176},
+      "broadband_rate": {"coef": -0.508, "se": 0.197},
+      "N": 2972,
+      "r2": 0.7011
+    }
+  }
+}

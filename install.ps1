@@ -37,7 +37,7 @@ $SelectedKeys = if ($Target -contains "all") {
     $Target | ForEach-Object { $_.ToLower().Trim() }
 }
 
-$BundleItems = @("SKILL.md", "agents", "scripts", "references", "examples", "assets")
+$BundleItems = @("SKILL.md", "agents", "configs", "scripts", "references", "examples", "assets")
 
 foreach ($key in $SelectedKeys) {
     if (-not $AllTargets.Contains($key)) {

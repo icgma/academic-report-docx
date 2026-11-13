@@ -12,15 +12,15 @@
 
   <!-- Left Column: Title & Value Proposition -->
   <rect x="48" y="42" width="178" height="28" rx="14" fill="#0f172a"/>
-  <text x="137" y="61" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">AGENT SKILL · v1.0.0</text>
+  <text x="137" y="61" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12.5" font-weight="bold" fill="#ffffff">AGENT SKILL · v1.1.0</text>
 
   <text x="48" y="114" font-family="'Microsoft YaHei','PingFang SC',SimHei,sans-serif" font-size="34" font-weight="bold" fill="#0f172a">academic-report-docx</text>
   <text x="48" y="152" font-family="'Microsoft YaHei','PingFang SC',SimHei,sans-serif" font-size="20" font-weight="bold" fill="#1e293b">客观平实的中文学术汇报文风 × 标准三段式三线表 Word 自动排版</text>
 
-  <text x="48" y="192" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 行文铁律：零第一/第二人称客观汇报体 · 拒用晦涩古词与AI套话 · 正文去括号英文路障</text>
-  <text x="48" y="220" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 学术版式：中文宋体 + 西文数字符号 Times New Roman · 全域 100% 纯黑 (#000000)</text>
-  <text x="48" y="248" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 规范图表：GB/T 7713.1 三段式三线表 (1.5pt / 0.75pt / 1.5pt) + 原生 OMML 数学公式</text>
-  <text x="48" y="276" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 双重门禁：内置 Prose 文风检查器 + OpenXML 底层标签自动断言核验</text>
+  <text x="48" y="192" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 行文铁律：零第一/第二人称客观汇报体（引语豁免）· 可插拔领域词库 · 去括号路障</text>
+  <text x="48" y="220" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 学术版式：中文宋体 + 西文 Times New Roman · 全域纯黑 (#000000) · 支持既有 .docx 重排</text>
+  <text x="48" y="248" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 规范图表：宽表自动横向分节 + 双层跨列表头三线表 + 规范插图（表上、图下）+ 原生 OMML</text>
+  <text x="48" y="276" font-family="'Microsoft YaHei','PingFang SC',sans-serif" font-size="14.5" fill="#334155">• 三重门禁：Prose 语境文风检查 + Empirical 实证数字对账 + OpenXML 底层标签断言</text>
 
   <!-- Agent Compatibility Pills -->
   <text x="48" y="322" font-family="'Microsoft YaHei','Segoe UI',sans-serif" font-size="12.5" font-weight="bold" fill="#475569">原生适配五大智能体终端（开箱即用）：</text>

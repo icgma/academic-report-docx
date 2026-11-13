@@ -1,0 +1,43 @@
+name: Academic DOCX v1.1 CI
+
+on:
+  push:
+    branches: ["main"]
+    tags: ["v*"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  verify-across-os:
+    name: Verify Prose, OMML, OpenXML & 5-Agent Bundle (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install lxml
+        run: python -m pip install --upgrade pip lxml
+
+      - name: Run Prose Gate on Example Report
+        run: python scripts/audit_report_prose.py examples/sample_empirical_report.md
+
+      - name: Run Empirical Number Gate on Example Report
+        run: python scripts/verify_numbers.py examples/sample_empirical_report.md --data-source examples/sample_results.json
+
+      - name: Run Full v1.1.0 Test Suite (Pandoc & Zero-Pandoc OMML Engines)
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Verify Catalog Skill Mirror Sync
+        run: |
+          python scripts/sync_skill_mirror.py
+          git diff --exit-code skills/academic-report-docx

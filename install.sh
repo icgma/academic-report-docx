@@ -10,7 +10,7 @@ copy_bundle() {
   local dest="$1"
   local label="$2"
   mkdir -p "$dest"
-  for item in SKILL.md agents scripts references examples assets; do
+  for item in SKILL.md agents configs scripts references examples assets; do
     if [ -e "$REPO_ROOT/$item" ]; then
       cp -R "$REPO_ROOT/$item" "$dest/"
     fi
