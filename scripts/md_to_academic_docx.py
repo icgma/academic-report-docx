@@ -1322,6 +1322,9 @@ def verify_academic_docx(docx_path: Path, require_captions: bool = True) -> tupl
 
 
 def main() -> int:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(
         description="Compile Markdown (or restyle existing .docx) into strictly formatted Academic Word (.docx, v1.1.0)."
     )

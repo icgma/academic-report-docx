@@ -123,6 +123,7 @@ title: 多模型宽表自动横向分节与双层跨列表头测试
                     env=env,
                     capture_output=True,
                     text=True,
+                    encoding="utf-8",
                     check=False,
                 )
                 self.assertEqual(res.returncode, 0, msg=res.stderr + "\n" + res.stdout)
@@ -188,6 +189,7 @@ title: 插图宽度自适应与图下居中图题测试
                     env=env,
                     capture_output=True,
                     text=True,
+                    encoding="utf-8",
                     check=False,
                 )
                 self.assertEqual(res.returncode, 0, msg=res.stderr + "\n" + res.stdout)
@@ -270,6 +272,7 @@ title: 插图宽度自适应与图下居中图题测试
                 [sys.executable, str(SCRIPTS_DIR / "md_to_academic_docx.py"), str(messy_docx), "--restyle", "-o", str(clean_docx), "--verify"],
                 capture_output=True,
                 text=True,
+                encoding="utf-8",
                 check=False,
             )
             self.assertEqual(res1.returncode, 0, msg=res1.stderr)
@@ -283,6 +286,7 @@ title: 插图宽度自适应与图下居中图题测试
                 [sys.executable, str(SCRIPTS_DIR / "md_to_academic_docx.py"), str(messy_docx), "--restyle", "-o", str(clean_docx), "--verify"],
                 capture_output=True,
                 text=True,
+                encoding="utf-8",
                 check=False,
             )
             self.assertEqual(res2.returncode, 0, msg=res2.stderr)
@@ -354,6 +358,7 @@ title: 插图宽度自适应与图下居中图题测试
                 env=env,
                 capture_output=True,
                 text=True,
+                encoding="utf-8",
                 check=False,
             )
             self.assertEqual(res.returncode, 0, msg=res.stderr)

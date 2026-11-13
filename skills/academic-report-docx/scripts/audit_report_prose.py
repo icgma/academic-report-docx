@@ -215,6 +215,9 @@ def audit_markdown(
 
 
 def main() -> int:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(description="Audit Chinese academic report Markdown prose style (v1.1.0).")
     parser.add_argument("markdown_path", type=Path, help="Path to the Markdown source file.")
     parser.add_argument("--max-clause", type=int, default=None, help="Override max CJK chars per unbroken clause.")

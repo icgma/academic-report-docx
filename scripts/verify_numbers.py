@@ -302,6 +302,9 @@ def verify_markdown_numbers(md_text: str, data_source_path: Path | None = None) 
 
 
 def main() -> int:
+    for stream in (sys.stdout, sys.stderr):
+        if hasattr(stream, "reconfigure"):
+            stream.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser(
         description="Cross-verify empirical numbers between Markdown prose, tables, and optional JSON/CSV data source."
     )
