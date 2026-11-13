@@ -4,6 +4,7 @@
 
 <br/>
 
+[![Live Website](https://img.shields.io/badge/Website-icgma.github.io-111315?style=flat-square)](https://icgma.github.io/academic-report-docx/)
 [![Release v1.1.0](https://img.shields.io/badge/Release-v1.1.0-0f172a?style=flat-square)](https://github.com/icgma/academic-report-docx/releases/tag/v1.1.0)
 [![CI Status](https://img.shields.io/github/actions/workflow/status/icgma/academic-report-docx/ci.yml?branch=main&style=flat-square&label=3-OS_Matrix_CI)](https://github.com/icgma/academic-report-docx/actions)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Skill_Ready-0f172a?style=flat-square&logo=anthropic&logoColor=white)](#六五大智能体安装与调用指南)
